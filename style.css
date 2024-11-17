@@ -7,7 +7,7 @@
 
 }
 .nav-item a:hover {
-    background-color: orange;
+    background-color: #008080;
     font-size: 1rem;
 }
 a{
@@ -32,23 +32,25 @@ left;
 text-indent:0px;
 }
 nav{
-    background-color: #171A27;
+    background-color: #161817;
 }
 #cart-icon{
-        position: fixed;
-        bottom: 20px;
-        left: 20px;
-        background-color:white;
-        color: black;
-        font-size: 24px;
-        border-radius: 50%;
-        padding: 15px;
-        cursor: pointer;
-        display: flex;
+    background-color: beige;
+    max-height: 100%;
+    width: 30%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-rows:3rem 1fr 3rem ;
+    color: white;
           align-items: center;
  justify-content: center;
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  z-index: 1000;
+ display: none;
 }
 #cart-icon .item-count {
     background-color: black;
@@ -62,24 +64,19 @@ nav{
 }
 .cart {
     position: fixed;
-    top: 10px;
-    left: 10px;
-    width: 100%;
-    max-height: 100%;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow-y: auto;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-}
-.cart-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    flex-direction: row;
-}
+  }
+
+
 
 .outline{
     background-image: url(OIP.jpg);
@@ -120,10 +117,10 @@ nav{
 font-family:"oswald" , sans-serif;
 }
 .sec-h{
-    color: orange;
+    color: #008080;
 }
 .h-thi{
-    color: orange;
+    color: #008080;
     font-family: "oswald" , sans-serif;
     font-size: 2rem;
     font-weight: 500;
@@ -136,7 +133,7 @@ font-family:"oswald" , sans-serif;
 .vehicle{
     height: 3.5rem;
     width: 14rem;
-    background-color: orange;
+    background-color:#008080;
     color: black;
     padding-top: 10px;
     text-align: center;
@@ -158,9 +155,18 @@ font-family:"oswald" , sans-serif;
     background-color: black;
     width: 50%;
     height: auto;
+    padding-bottom: 3rem;
 }
+.second-nav h1{
+    font-size: 3rem;
+    font-family: "Oswald" , sans-serif;
+    font-weight: 500;
+    color: white;
+    padding-left: 2.3rem;
+}
+
 #who{
-    color: orange;
+    color:#008080;
     font-size: 2rem;
     padding-top: 2rem;
 
@@ -193,7 +199,7 @@ font-family:"oswald" , sans-serif;
 }
 .res{
     height: auto;
-    width: 33%;
+    width: 15%;
 }
 .dropdown-item{
     color: white;
@@ -204,7 +210,7 @@ font-family:"oswald" , sans-serif;
 .report{
     height: 2.5rem;
     width: 10rem;
-background-color: orange;
+background-color: #008080;
 }
 .report a{
     text-decoration: none;
@@ -231,7 +237,7 @@ background-color: orange;
 .hed{
     font-size: 2rem;
     width: 50%;
-    color: orange;
+    color: #008080;
 }
 .sav{
     width: 50%;
@@ -283,7 +289,7 @@ img{
 }
 .description a{
 padding-bottom: 1rem;
-color: orange;
+color:#008080;
 font-size: 1.5rem;
 text-decoration: none;
 cursor: pointer;
@@ -313,7 +319,7 @@ img{
     display: block;
 }
 .second-desc a {
-color: orange;
+color:#008080;
 font-size: 1.5rem;
 text-decoration: none;
 cursor: pointer;
@@ -343,7 +349,7 @@ img{
     display: block;
 }
 .third-desc a{
-    color: orange;
+    color: #008080;
     font-size: 1.5rem;
     text-decoration: none;
     cursor: pointer;
@@ -380,7 +386,7 @@ img{
 }
 .desc-fourth a{
     text-decoration: none;
-    color: orange;
+    color: #008080;
     font-size:1rem;
     cursor: pointer;
 }
@@ -409,7 +415,7 @@ img{
 }
 .desc-fifth a{
     text-decoration: none;
-    color: orange;
+    color: #008080;
     font-size:1rem;
     cursor: pointer;
 }
@@ -438,7 +444,7 @@ img{
 }
 .desc-six a{
     text-decoration: none;
-    color: orange;
+    color: #008080;
     font-size:1rem;
     cursor: pointer;
 }
@@ -514,7 +520,7 @@ img{
     color: white;
 }
 .info-3 h4{
-color: orange;
+color: #008080;
 }
 .info-3 h6{
     font-size: 1rem;
@@ -530,7 +536,7 @@ color: orange;
 .star{
     width: 3rem;
     height: 3rem;
-    color: orange;
+    color:#008080;
     background-color: #23283B;
     text-align: center;
     padding-top: 0.7rem;
@@ -582,7 +588,7 @@ img{
 .customer-feedback h3{
 font-family: "nunito sans" sans-serif;
 font-size: 1.5rem;
-color: orange;
+color: #008080;
 padding-top: 3.5rem;
 }
 .customer-feedback h2{
@@ -653,7 +659,7 @@ img{
 .arrow {
     margin-right: 10px; /* Space between arrow and text */
     transition: transform 0.2s; /* Smooth transition */
-    color: orange;
+    color: #008080;
 }
 
 .faq-answer {
@@ -663,7 +669,7 @@ img{
    color:white
 }
 .faq-section h2{
-    color: orange;
+    color: #008080;
     font-family: "nunito sans" , sans-serif;
 }
 .faq-parent{
@@ -717,7 +723,7 @@ img{
 font-weight: 300;
 }
 .services-list a:hover{
-    color: orange;
+    color: #008080;
     font-size: 1rem;
     
 }
@@ -757,11 +763,11 @@ margin-top: 2rem;
 }
 .fa-envelope{
     font-size: 1.7rem;
-    color: orange;
+    color: #008080;
 }
 .fa-location-dot{
     font-size: 1.3rem;
-    color: orange; 
+    color: #008080; 
 }
 .follow-information{
     width: 30%;
@@ -783,7 +789,7 @@ margin-top: 2rem;
 .follow-icon{
     width: 2rem;
     height: 2rem;
-    background-color: #FEBD1A;
+    background-color: #008080;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
@@ -809,7 +815,7 @@ margin-left: 0.7rem;
     font-size: 1rem;
 }
 .color-icon:hover{
-    color: orange;
+    color: #008080;
     font-size: 1rem;
 }
 .payment-option{
@@ -826,7 +832,56 @@ margin-left: 0.7rem;
     color: white;
     padding-left: 2rem;
 }
+.sec-paragraph{
+    height: auto;
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.sec-paragraph p{
+    font-size: 1rem;
+    font-family: "nunito sans" , sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.res img{
+    width: 40%;
+    height: auto;
+}
+.item{
+    width: 90%;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
 
+}
+.image{
+    max-width: 40%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    max-width: 80%;
+    height: auto;
+}
+.item-description{
+    width: 60%;
+font-size: 1rem;
+font-family: sans-serif;
+background-color: blue;
+color: white;
+height: auto;
+}
+.btn{
+    width: 100%;
+    background-color: orange;
+    z-index: 1000;
+}
 
 
 
